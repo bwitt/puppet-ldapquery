@@ -5,7 +5,7 @@ docker run --detach --rm \
   --hostname openldap \
   --publish 1389:1389 \
   --publish 1636:1636 \
-  bitnami/openldap
+  bitnamilegacy/openldap
 
 sleep 5
 docker logs openldap --tail 100
